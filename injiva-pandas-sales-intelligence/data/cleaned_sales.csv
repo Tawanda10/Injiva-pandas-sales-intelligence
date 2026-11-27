@@ -1,0 +1,18 @@
+Transaction_ID,Date,Product,Category,Quantity,Unit_Price,Unit_Cost,Salesperson,City,Payment_Method,Discount_Percent,Original_Product,Original_Date,Cleaning_Notes,Requires_Manual_Review,Gross_Revenue,Discount_Amount,Net_Revenue,Total_Cost,Gross_Profit,Gross_Profit_Margin
+TX001,2026-01-05,Laptop,Computers,2,650.00,500.00,John,Bulawayo,Cash,0.00,Laptop,2026-01-05,,False,1300.00,0.00,1300.00,1000.00,300.00,23.08
+TX002,2026-01-06,Smartphone,Mobile,5,300.00,220.00,Mary,Harare,EcoCash,5.00,Smartphone,06/01/2026,Date converted from '06/01/2026' (day-first),False,1500.00,75.00,1425.00,1100.00,325.00,22.81
+TX003,2026-01-07,Keyboard,Accessories,10,25.00,12.00,Peter,Gweru,Bank Transfer,0.00,keyboard,2026-01-07,Product standardised from 'keyboard',False,250.00,0.00,250.00,120.00,130.00,52.00
+TX004,2026-01-08,Monitor,Computers,3,180.00,130.00,John,Bulawayo,Cash,10.00,Monitor,2026-01-08,,False,540.00,54.00,486.00,390.00,96.00,19.75
+TX005,2026-01-09,Printer,Office Equipment,2,220.00,160.00,Sarah,Mutare,EcoCash,0.00,Printer,09-01-2026,Date converted from '09-01-2026' (day-first),False,440.00,0.00,440.00,320.00,120.00,27.27
+TX006,2026-01-10,Laptop,Computers,1,700.00,520.00,Mary,Harare,Bank Transfer,5.00,LAPTOP,2026-01-10,Product standardised from 'LAPTOP',False,700.00,35.00,665.00,520.00,145.00,21.80
+TX007,2026-01-11,Mouse,Accessories,15,15.00,7.00,Peter,Gweru,Cash,0.00,Mouse,2026-01-11,,False,225.00,0.00,225.00,105.00,120.00,53.33
+TX008,2026-01-12,Smartphone,Mobile,4,320.00,240.00,Sarah,Mutare,EcoCash,10.00,Smartphone,12/01/2026,Date converted from '12/01/2026' (day-first),False,1280.00,128.00,1152.00,960.00,192.00,16.67
+TX010,2026-01-14,Keyboard,Accessories,8,30.00,14.00,Mary,Harare,Bank Transfer,0.00,Keyboard,2026-01-14,,False,240.00,0.00,240.00,112.00,128.00,53.33
+TX011,2026-01-15,Laptop,Computers,3,680.00,510.00,John,Bulawayo,Cash,5.00,Laptop,2026-01-15,,False,2040.00,102.00,1938.00,1530.00,408.00,21.05
+TX013,2026-01-17,Mouse,Accessories,12,18.00,8.00,Peter,Gweru,Cash,0.00,Mouse,2026-01-17,,False,216.00,0.00,216.00,96.00,120.00,55.56
+TX014,2026-01-18,Smartphone,Mobile,5,310.00,235.00,Mary,Harare,Bank Transfer,5.00,Smartphone,2026-01-18,,False,1550.00,77.50,1472.50,1175.00,297.50,20.20
+TX016,2026-01-20,Monitor,Computers,4,190.00,140.00,Sarah,Mutare,EcoCash,0.00,Monitor,2026-01-20,,False,760.00,0.00,760.00,560.00,200.00,26.32
+TX017,2026-01-21,Keyboard,Accessories,9,28.00,13.00,Peter,Gweru,Cash,0.00,Keyboard,2026-01-21,,False,252.00,0.00,252.00,117.00,135.00,53.57
+TX018,2026-01-22,Printer,Office Equipment,2,230.00,170.00,Mary,Harare,Bank Transfer,5.00,Printer,2026-01-22,,False,460.00,23.00,437.00,340.00,97.00,22.20
+TX019,2026-01-23,Smartphone,Mobile,6,330.00,250.00,Sarah,Mutare,EcoCash,10.00,Smartphone,2026-01-23,,False,1980.00,198.00,1782.00,1500.00,282.00,15.82
+TX020,2026-01-24,Mouse,Accessories,20,15.00,7.00,Peter,Gweru,Cash,0.00,Mouse,2026-01-24,,False,300.00,0.00,300.00,140.00,160.00,53.33

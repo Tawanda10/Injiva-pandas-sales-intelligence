@@ -1,0 +1,7 @@
+Product,Transactions,Units_Sold,Gross_Revenue,Discount_Amount,Net_Revenue,Total_Cost,Gross_Profit,Avg_Discount_Percent,Gross_Profit_Margin,Revenue_Share_Percent,Profit_Share_Percent,Revenue_Rank,Profit_Rank,Below_Average_Margin
+Smartphone,4,20,6310.00,478.50,5831.50,4735.00,1096.50,7.50,18.80,43.71,33.68,1,1,True
+Laptop,3,6,4040.00,137.00,3903.00,3050.00,853.00,3.33,21.85,29.26,26.20,2,2,True
+Monitor,2,7,1300.00,54.00,1246.00,950.00,296.00,5.00,23.76,9.34,9.09,3,5,True
+Printer,2,4,900.00,23.00,877.00,660.00,217.00,2.50,24.74,6.57,6.67,4,6,False
+Keyboard,3,27,742.00,0.00,742.00,349.00,393.00,0.00,52.96,5.56,12.07,5,4,False
+Mouse,3,47,741.00,0.00,741.00,341.00,400.00,0.00,53.98,5.55,12.29,6,3,False

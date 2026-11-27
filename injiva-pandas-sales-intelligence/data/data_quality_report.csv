@@ -1,0 +1,25 @@
+Rule_ID,Rule_Name,Transaction_ID,Affected_Column,Original_Value,Issue_Description,Severity,Recommended_Action,Resolution_Status
+R01,Missing value,ALL,All except Unit_Price,,No violations found,None,No action required,Passed
+R02,Duplicate Transaction_ID,ALL,Transaction_ID,,No violations found,None,No action required,Passed
+R03,Fully duplicated record,ALL,All columns,,No violations found,None,No action required,Passed
+R04,Negative quantity,TX009,Quantity,-2,Negative quantity: possible return/reversal or entry error; no link to an original sale,High,Exclude from sales totals; confirm with Sales whether it is a return,Rejected - pending manual review
+R05,Zero quantity,TX015,Quantity,0,Zero units sold: no economic transaction occurred (possible cancelled or incomplete entry),Medium,Exclude from sales totals; confirm whether the sale was cancelled,Rejected - pending manual review
+R06,Missing selling price,TX012,Unit_Price,None,Unit_Price is missing; revenue cannot be calculated,High,Do not impute; obtain actual invoice price from Finance,Rejected - pending manual review
+R07,Invalid unit price,ALL,Unit_Price,,No violations found,None,No action required,Passed
+R08,Invalid unit cost,ALL,Unit_Cost,,No violations found,None,No action required,Passed
+R09,Unit price below unit cost,ALL,Unit_Price,,No violations found,None,No action required,Passed
+R10,Inconsistent product name,TX003,Product,keyboard,Non-standard casing; standard form is 'Keyboard',Low,Standardise to Title Case,Resolved - standardised during cleaning
+R10,Inconsistent product name,TX006,Product,LAPTOP,Non-standard casing; standard form is 'Laptop',Low,Standardise to Title Case,Resolved - standardised during cleaning
+R10,Inconsistent product name,TX009,Product,monitor,Non-standard casing; standard form is 'Monitor',Low,Standardise to Title Case,Resolved - standardised during cleaning
+R11,Inconsistent category,ALL,Category,,No violations found,None,No action required,Passed
+R12,Non-standard date format,TX002,Date,06/01/2026,Date not in ISO format (YYYY-MM-DD); interpreted day-first as 2026-01-06,Low,Convert with explicit day-first format,Resolved - converted during cleaning
+R12,Non-standard date format,TX005,Date,09-01-2026,Date not in ISO format (YYYY-MM-DD); interpreted day-first as 2026-01-09,Low,Convert with explicit day-first format,Resolved - converted during cleaning
+R12,Non-standard date format,TX008,Date,12/01/2026,Date not in ISO format (YYYY-MM-DD); interpreted day-first as 2026-01-12,Low,Convert with explicit day-first format,Resolved - converted during cleaning
+R12,Non-standard date format,TX012,Date,16/01/2026,Date not in ISO format (YYYY-MM-DD); interpreted day-first as 2026-01-16,Low,Convert with explicit day-first format,Resolved - converted during cleaning
+R12,Non-standard date format,TX015,Date,19-01-2026,Date not in ISO format (YYYY-MM-DD); interpreted day-first as 2026-01-19,Low,Convert with explicit day-first format,Resolved - converted during cleaning
+R13,Incorrect data type,ALL,Date,object,Column stored as object; expected datetime,Medium,Convert column to datetime,Resolved - converted during cleaning
+R13,Inferred data type,ALL,Unit_Price,float64,Pandas inferred float64 because a value is missing (None -> NaN),Low,Keep as float for currency; handle missing value via R06,Accepted - documented
+R14,Suspicious discount,ALL,Discount_Percent,,No violations found,None,No action required,Passed
+R15,Unexpected product-category pair,ALL,Category,,No violations found,None,No action required,Passed
+R16,Unknown City,ALL,City,,No violations found,None,No action required,Passed
+R17,Unknown Payment_Method,ALL,Payment_Method,,No violations found,None,No action required,Passed
